@@ -96,10 +96,18 @@ function getCategoryStyle(category) {
 
 // Read the blog template
 const templatePath = path.join(__dirname, 'blog', '_template.html');
+if (!fs.existsSync(templatePath)) {
+  console.log('No blog template found. Skipping blog build.');
+  process.exit(0);
+}
 const template = fs.readFileSync(templatePath, 'utf8');
 
 // Read the blog index template
 const indexTemplatePath = path.join(__dirname, 'blog', '_index-card-template.html');
+if (!fs.existsSync(indexTemplatePath)) {
+  console.log('No index card template found. Skipping blog build.');
+  process.exit(0);
+}
 const indexCardTemplate = fs.readFileSync(indexTemplatePath, 'utf8');
 
 // Process all markdown posts
