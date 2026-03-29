@@ -2,6 +2,7 @@ backend:
   name: github
   repo: benalanfeenan/asinawebsite
   branch: main
+  base_url: https://api.sveltia-cms.com
 
 media_folder: "images/blog"
 public_folder: "/images/blog"
