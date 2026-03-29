@@ -1,14 +1,14 @@
 ---
-title: "Weekend SIL Renovations"
-description: "We're getting one of our new SIL homes ready before it opens, building raised garden beds where each participant will get their own veggie patch to grow independence and everyday skills."
+title: Weekend SIL Renovations
+description: We're getting one of our new SIL homes ready before it opens, building raised garden beds where each participant will get their own veggie patch to grow independence and everyday skills.
 date: 2026-03-29
-category: "SIL"
-image: "../gardenbed.jpg"
-image_alt: "Raised brick garden beds being built at an Asina SIL home"
-keywords: "SIL renovations, supported independent living Armidale, NDIS garden beds, capacity building, disability support home"
+category: SIL
+image: ../gardenbed.jpg
+image_alt: Raised brick garden beds being built at an Asina SIL home
+keywords: SIL renovations, supported independent living Armidale, NDIS garden beds, capacity building, disability support home
 ---
 
-We're getting one of our new SIL homes ready before it opens, and the team spent the weekend building raised garden beds.
+We're getting one of our new SIL homes in Armidale ready before it opens, and the team spent the weekend building raised garden beds.
 
 Each participant will get their own veggie patch to grow whatever they like. It's a hands-on way to build everyday skills like routine, responsibility, and independence. Staff can also put up name labels, planting guides, and watering schedules on the walls to help support that.
 
