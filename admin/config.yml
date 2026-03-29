@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: benalanfeenan/asinawebsite
+  branch: main
+
+media_folder: "images/blog"
+public_folder: "/images/blog"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "blog/posts"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "text", hint: "SEO description (150-160 characters). Shows in Google search results." }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Category", name: "category", widget: "select", options: ["NDIS Guide", "Tips", "Community Guide", "News", "SIL"] }
+      - { label: "Featured Image", name: "image", widget: "image", required: false, hint: "Blog header image. Use landscape format (16:9)." }
+      - { label: "Image Alt Text", name: "image_alt", widget: "string", required: false, hint: "Describe the image for accessibility and SEO." }
+      - { label: "SEO Keywords", name: "keywords", widget: "string", required: false, hint: "Comma-separated keywords for this post." }
+      - { label: "Body", name: "body", widget: "markdown" }

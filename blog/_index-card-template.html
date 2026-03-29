@@ -1,0 +1,11 @@
+      <a class='about-card animate-on-scroll' href='/blog/{{slug}}' style='text-decoration:none;'>
+        <div class="about-card-img"><img src="{{image}}" alt="{{image_alt}}" loading="lazy"></div>
+        <div class="about-card-content">
+          <div style="display:flex;gap:8px;margin-bottom:12px;">
+            <span style="{{category_style}}padding:4px 12px;border-radius:50px;font-size:0.75rem;font-weight:600;">{{category}}</span>
+            <span style="color:var(--text-lighter);font-size:0.8rem;line-height:2;">{{date_short}}</span>
+          </div>
+          <h3>{{title}}</h3>
+          <p>{{description}}</p>
+        </div>
+      </a>

@@ -1,0 +1,52 @@
+# Redirect .html URLs to clean URLs (301 permanent)
+# This eliminates duplicate content issues in Google Search Console
+/index.html          /                    301
+/about.html          /about               301
+/services.html       /services            301
+/contact.html        /contact             301
+/referral.html       /referral            301
+/faq.html            /faq                 301
+/testimonials.html   /testimonials        301
+/feedback.html       /feedback            301
+/vacancies.html      /vacancies           301
+/founder.html        /founder             301
+/service-areas.html  /service-areas       301
+/ndis-calculator.html /ndis-calculator    301
+/accessibility.html  /accessibility       301
+/privacy-policy.html /privacy-policy      301
+/terms.html          /terms               301
+/impact.html         /impact              301
+/supported-employment.html /supported-employment 301
+/community-partnerships.html /community-partnerships 301
+/portal.html         /portal              301
+/app-signup.html     /app-signup          301
+/404.html            /404                 301
+
+# Service pages
+/services/community-access.html          /services/community-access          301
+/services/supported-independent-living.html /services/supported-independent-living 301
+/services/daily-living.html              /services/daily-living              301
+/services/transport.html                 /services/transport                 301
+/services/meal-preparation.html          /services/meal-preparation          301
+/services/capacity-building.html         /services/capacity-building         301
+/services/drop-in-support.html           /services/drop-in-support           301
+/services/ndis-cleaning.html             /services/ndis-cleaning             301
+
+# Area pages
+/areas/armidale.html     /areas/armidale     301
+/areas/tamworth.html     /areas/tamworth     301
+/areas/uralla.html       /areas/uralla       301
+/areas/glen-innes.html   /areas/glen-innes   301
+/areas/inverell.html     /areas/inverell     301
+/areas/guyra.html        /areas/guyra        301
+/areas/walcha.html       /areas/walcha       301
+/areas/newcastle.html    /areas/newcastle    301
+
+# Blog pages
+/blog/index.html         /blog/              301
+/blog/what-is-community-access-ndis.html                  /blog/what-is-community-access-ndis                  301
+/blog/how-to-choose-disability-provider-armidale.html     /blog/how-to-choose-disability-provider-armidale     301
+/blog/understanding-supported-independent-living.html     /blog/understanding-supported-independent-living     301
+/blog/ndis-services-armidale-2026-guide.html              /blog/ndis-services-armidale-2026-guide              301
+/blog/how-to-get-started-with-ndis-armidale.html          /blog/how-to-get-started-with-ndis-armidale          301
+/blog/best-disability-support-activities-armidale.html    /blog/best-disability-support-activities-armidale    301

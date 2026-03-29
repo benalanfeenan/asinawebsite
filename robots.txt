@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /?s=
+Disallow: /portal
+Disallow: /app-signup
+Disallow: /email-signature
+Disallow: /admin
+
+Sitemap: https://asinadisability.com.au/sitemap.xml
