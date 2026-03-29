@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asina Disability Support - Blog</title>
+    <link>https://asinadisability.com.au/blog/</link>
+    <description>NDIS disability support guides, tips, and news from Asina Disability Support in Armidale, NSW.</description>
+    <language>en-au</language>
+    <lastBuildDate>Sun, 29 Mar 2026 08:31:37 GMT</lastBuildDate>
+    <atom:link href="https://asinadisability.com.au/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Weekend SIL Renovations</title>
+      <link>https://asinadisability.com.au/blog/weekend-sil-renovations.html</link>
+      <guid>https://asinadisability.com.au/blog/weekend-sil-renovations.html</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description>We&apos;re getting one of our new SIL homes ready before it opens, building raised garden beds where each participant will get their own veggie patch to grow independence and everyday skills.</description>
+      <category>SIL</category>
+    </item>
+    <item>
+      <title>NDIS Disability Support in Armidale: Your Complete 2026 Guide</title>
+      <link>https://asinadisability.com.au/blog/ndis-disability-support-armidale-guide.html</link>
+      <guid>https://asinadisability.com.au/blog/ndis-disability-support-armidale-guide.html</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Everything you need to know about accessing NDIS disability support in Armidale and the New England Region. Services, providers, eligibility and how to get started.</description>
+      <category>NDIS Guide</category>
+    </item>
+    <item>
+      <title>Supported Independent Living (SIL) in Armidale: What You Need to Know</title>
+      <link>https://asinadisability.com.au/blog/supported-independent-living-armidale.html</link>
+      <guid>https://asinadisability.com.au/blog/supported-independent-living-armidale.html</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A practical guide to Supported Independent Living in Armidale NSW. What SIL is, how it works, what&apos;s included, and how to find SIL vacancies in the New England Region.</description>
+      <category>SIL</category>
+    </item>
+    <item>
+      <title>Community Access Activities in Armidale for NDIS Participants</title>
+      <link>https://asinadisability.com.au/blog/community-access-activities-armidale.html</link>
+      <guid>https://asinadisability.com.au/blog/community-access-activities-armidale.html</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Discover community access activities available for NDIS participants in Armidale. From bowling to volunteering, here&apos;s how to make the most of your community access funding.</description>
+      <category>Community Guide</category>
+    </item>
+    <item>
+      <title>How to Choose an NDIS Provider in Armidale</title>
+      <link>https://asinadisability.com.au/blog/how-to-choose-ndis-provider-armidale.html</link>
+      <guid>https://asinadisability.com.au/blog/how-to-choose-ndis-provider-armidale.html</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Practical tips for choosing the right NDIS disability support provider in Armidale NSW. What to look for, questions to ask, and red flags to watch out for.</description>
+      <category>Tips</category>
+    </item>
+    <item>
+      <title>Understanding NDIS Plan Management in Armidale</title>
+      <link>https://asinadisability.com.au/blog/ndis-plan-management-armidale.html</link>
+      <guid>https://asinadisability.com.au/blog/ndis-plan-management-armidale.html</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A simple guide to NDIS plan management options in Armidale. Learn the difference between self-managed, plan-managed, and NDIA-managed plans and which suits you best.</description>
+      <category>NDIS Guide</category>
+    </item>
+  </channel>
+</rss>
