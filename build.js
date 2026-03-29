@@ -198,4 +198,45 @@ if (indexHtml.includes(marker)) {
   console.log('Updated: blog/index.html with new post cards');
 }
 
+// Generate RSS feed
+function escapeXml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+const siteUrl = 'https://asinadisability.com.au';
+const rssItems = posts.map(post => {
+  const postUrl = `${siteUrl}/blog/${post.slug}.html`;
+  const pubDate = new Date(post.date).toUTCString();
+  return `    <item>
+      <title>${escapeXml(post.title)}</title>
+      <link>${postUrl}</link>
+      <guid>${postUrl}</guid>
+      <pubDate>${pubDate}</pubDate>
+      <description>${escapeXml(post.description)}</description>
+      <category>${escapeXml(post.category)}</category>
+    </item>`;
+}).join('\n');
+
+const rssFeed = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asina Disability Support - Blog</title>
+    <link>${siteUrl}/blog/</link>
+    <description>NDIS disability support guides, tips, and news from Asina Disability Support in Armidale, NSW.</description>
+    <language>en-au</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <atom:link href="${siteUrl}/blog/feed.xml" rel="self" type="application/rss+xml"/>
+${rssItems}
+  </channel>
+</rss>`;
+
+const feedPath = path.join(__dirname, 'blog', 'feed.xml');
+fs.writeFileSync(feedPath, rssFeed);
+console.log('Generated: blog/feed.xml (RSS feed)');
+
 console.log(`\nDone! Built ${posts.length} CMS blog post(s).`);
