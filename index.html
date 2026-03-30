@@ -2289,27 +2289,46 @@ handleFormSubmit('contactForm', 'contactFormWrapper', 'Message Sent!');
 
 /* ===== Animated Number Counters ===== */
 function animateCounters() {
-  document.querySelectorAll('.stat-number[data-count]').forEach(function(el) {
+  var counters = document.querySelectorAll('.stat-number[data-count]');
+  if (!counters.length) return;
+  if ('IntersectionObserver' in window && !animateCounters._observed) {
+    animateCounters._observed = true;
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          if (el.dataset.animated) return;
+          observer.unobserve(el);
+          startCounter(el);
+        }
+      });
+    }, { threshold: 0.1 });
+    counters.forEach(function(el) { if (!el.dataset.animated) observer.observe(el); });
+    return;
+  }
+  counters.forEach(function(el) {
     if (el.dataset.animated) return;
     var rect = el.getBoundingClientRect();
     if (rect.top > window.innerHeight || rect.bottom < 0) return;
-    el.dataset.animated = 'true';
-    var target = parseInt(el.dataset.count);
-    var suffix = el.dataset.suffix || '';
-    var duration = 2000;
-    var start = 0;
-    var startTime = null;
-    function step(timestamp) {
-      if (!startTime) startTime = timestamp;
-      var progress = Math.min((timestamp - startTime) / duration, 1);
-      var eased = 1 - Math.pow(1 - progress, 3);
-      var current = Math.floor(eased * target);
-      el.textContent = current + suffix;
-      if (progress < 1) requestAnimationFrame(step);
-      else el.textContent = target + suffix;
-    }
-    requestAnimationFrame(step);
+    startCounter(el);
   });
+}
+function startCounter(el) {
+  el.dataset.animated = 'true';
+  var target = parseInt(el.dataset.count);
+  var suffix = el.dataset.suffix || '';
+  var duration = 2000;
+  var startTime = null;
+  function step(timestamp) {
+    if (!startTime) startTime = timestamp;
+    var progress = Math.min((timestamp - startTime) / duration, 1);
+    var eased = 1 - Math.pow(1 - progress, 3);
+    var current = Math.floor(eased * target);
+    el.textContent = current + suffix;
+    if (progress < 1) requestAnimationFrame(step);
+    else el.textContent = target + suffix;
+  }
+  requestAnimationFrame(step);
 }
 window.addEventListener('scroll', animateCounters);
 animateCounters();
