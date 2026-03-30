@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
-  <url><loc>https://asinadisability.com.au/</loc><lastmod>2026-03-29</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://asinadisability.com.au/</loc><lastmod>2026-03-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 
   <!-- Core Pages -->
   <url><loc>https://asinadisability.com.au/about</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -43,7 +43,10 @@
   <url><loc>https://asinadisability.com.au/areas/newcastle</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Blog -->
-  <url><loc>https://asinadisability.com.au/blog/</loc><lastmod>2026-03-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://asinadisability.com.au/blog/</loc><lastmod>2026-03-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://asinadisability.com.au/blog/what-disability-support-looks-like-armidale</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://asinadisability.com.au/blog/preparing-for-ndis-plan-review-armidale</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://asinadisability.com.au/blog/accessible-things-to-do-armidale</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://asinadisability.com.au/blog/what-is-community-access-ndis</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://asinadisability.com.au/blog/how-to-choose-disability-provider-armidale</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://asinadisability.com.au/blog/understanding-supported-independent-living</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
