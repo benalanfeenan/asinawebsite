@@ -29,7 +29,8 @@
 <meta name="geo.placename" content="Armidale">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
 <style>
 /* ========== CSS VARIABLES ========== */
 :root {
@@ -1682,7 +1683,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); line-height: 1.2; col
 <div class="mobile-overlay" id="mobileOverlay"></div>
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
   <div class="mobile-nav-header">
-    <img src="asina-logo.png" alt="Asina" height="32">
+    <img src="asina-logo.png" alt="Asina" width="110" height="32">
     <button class="mobile-nav-close" id="mobileClose" aria-label="Close menu">&times;</button>
   </div>
   <div class="mobile-nav-body">
@@ -1731,7 +1732,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); line-height: 1.2; col
 <!-- ===== HERO ===== -->
 <section class="hero">
   <div class="hero-bg">
-    <img src="community-access.webp" alt="Community access bowling outing with Asina Disability Support worker and NDIS participant in Armidale NSW" width="1920" height="1080" loading="eager">
+    <img src="community-access.webp" alt="Community access bowling outing with Asina Disability Support worker and NDIS participant in Armidale NSW" width="1920" height="1080" loading="eager" fetchpriority="high">
   </div>
   <div class="container">
     <div class="hero-content">
@@ -1761,7 +1762,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); line-height: 1.2; col
   <div class="container">
     <div class="promise-card animate-on-scroll">
       <div class="promise-content">
-        <div class="section-label" style="display:inline-flex;align-items:center;gap:8px;"><img src="asina-logo.png" alt="Asina" style="height:22px;width:auto;border-radius:4px;">Our Promise To You</div>
+        <div class="section-label" style="display:inline-flex;align-items:center;gap:8px;"><img src="asina-logo.png" alt="Asina" width="75" height="22" style="border-radius:4px;">Our Promise To You</div>
         <h2 style="font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;margin-bottom:12px;">You'll always know what's happening <br>with your loved one's care.</h2>
         <p style="color:var(--text-light);font-size:1rem;line-height:1.7;max-width:480px;margin-bottom:28px;">No surprises. No phone tag. Our family portal gives you real-time access to everything &mdash; because transparency isn't a feature, it's a right.</p>
         <div class="promise-features">
