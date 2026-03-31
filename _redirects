@@ -50,3 +50,12 @@
 /blog/ndis-services-armidale-2026-guide.html              /blog/ndis-services-armidale-2026-guide              301
 /blog/how-to-get-started-with-ndis-armidale.html          /blog/how-to-get-started-with-ndis-armidale          301
 /blog/best-disability-support-activities-armidale.html    /blog/best-disability-support-activities-armidale    301
+
+# SEO: 301 redirects for cannibalising blog posts
+# Pair 1: Two near-identical "NDIS Armidale guide" posts - keep the stronger one
+/blog/ndis-services-armidale-2026-guide       /blog/ndis-disability-support-armidale-guide  301
+/blog/ndis-services-armidale-2026-guide.html  /blog/ndis-disability-support-armidale-guide  301
+
+# Pair 2: Two near-identical "choose provider" posts - keep the stronger one
+/blog/how-to-choose-disability-provider-armidale       /blog/how-to-choose-ndis-provider-armidale  301
+/blog/how-to-choose-disability-provider-armidale.html  /blog/how-to-choose-ndis-provider-armidale  301
